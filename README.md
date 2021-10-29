@@ -1,23 +1,9 @@
-# Plugin name
-
-Brief description of the plugin.
-
-## Setup
+# grafana-41085
 
 ```bash
+git clone git@github.com:zuchka/grafana-41085.git
+cd grafana-41085
 docker-compose up -d
-docker-compose exec grafana grafana-cli --pluginUrl=<URL> plugins install <PLUGIN ID>
-docker-compose restart grafana
 ```
 
-## Contact
-
-| Name | GitHub | Email |
-|------|--------|-------|
-|      |        |       |
-
-## Links
-
-- [Project page](https://github.com/<SLUG>)
-- [Org page](https://admin.grafana.com/orgs/<ORG_SLUG>)
-# grafana-41085
+https://github.com/grafana/grafana/issues/41085
